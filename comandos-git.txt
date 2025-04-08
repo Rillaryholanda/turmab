@@ -1,0 +1,27 @@
+--- Comandos não exclusivos do Git
+ls -> comando para listar arquivos de uma pasta
+dir -> comando para listar arquivos de uma pasta
+
+--- Comandos usando teclas do PC
+cntrl + L -> limpa os comandos anteriores
+setas para cima do teclado -> traz os comandos anteriores
+
+
+--- Comandos usando o Git Bash
+git init -> criação de repositório (vai armazenar logs)
+git config user.name "nome de usuário" -> configurando nome de usuário
+git config user.email "email do usuário" -> configurando email do usuário
+git status -> lista arquivos que estão localmente armazenados na pasta
+git add (é possível colocar os nomes dos arquivos que desjea subir ou um ponto, quando quer subir tudo) -> adiciona arquivos ao staging area
+git commit -m "descrição do commit" -> faz um commit na branch
+git log -> mostra o autor do commit (user e email), data, hash do commit (valor imenso em amarelo) e descrição do commit
+git branch -> mostra odas as branches do repositório
+git branch -m (nome da branch atual) (nome da branch nova) -> troca o nome da Branch 
+
+
+--- Git com um repositório no GitHub criado
+git remote add origin (link do repositório remoto) -> adiciona um repositório remoto já criado
+git remote -v -> certifica qual repositório remoto está na branch/se foi adicionado
+git pull origin main /*main é a branch padrão do github*/ -> atualiza o que há no repositório remoto para o repositório local
+git push -u origin (nome da sua branch) -> sobe os arquivos adicionados no staging area para o repositório remoto
+git push -f origin (nome da sua branch) -> sobre os arquivos forçadamente
